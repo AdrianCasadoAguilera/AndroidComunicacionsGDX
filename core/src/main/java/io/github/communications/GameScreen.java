@@ -12,7 +12,7 @@ public class GameScreen implements Screen {
     private boolean isConnected = false;
 
     public GameScreen() {
-        String address = "ws://ieticloudpro.ieti.cat";
+        String address = "ieticloudpro.ieti.cat";
         int port = 8888;
 
         try {
